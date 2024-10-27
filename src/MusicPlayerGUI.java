@@ -3,8 +3,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
-import java.io.File; // Import the File class
-import javax.imageio.ImageIO; // Import the ImageIO class
+import java.io.File;
+import javax.imageio.ImageIO;
 
 public class MusicPlayerGUI  extends JFrame{
 
@@ -33,7 +33,7 @@ public class MusicPlayerGUI  extends JFrame{
 
         musicPlayer = new MusicPlayer();
         jFileChooser = new JFileChooser();
-        // Set file selection mode to allow only files
+
         jFileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
 
         addGuiComponents();

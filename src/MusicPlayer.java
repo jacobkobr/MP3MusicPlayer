@@ -7,7 +7,7 @@ public class MusicPlayer {
 
     private Song currentSong;
 
-    //JLayer library create AdvancedPlayer obj plays music
+
     private AdvancedPlayer advancedPlayer;
 
 
